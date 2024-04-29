@@ -1,4 +1,4 @@
-KFC_Clone
+<h1>KFC_Clone</H1>
 This is a clone of one of India's most beloved fast-food chains, KFC! KFC Clone is a platform offering a delectable menu of KFC Originals — signature chicken recipes, tantalizing sides, refreshing beverages, and delicious desserts — with new additions every month.
 
 website link
