@@ -5,7 +5,8 @@ website link -https://kfc-clone-98z1.vercel.app/
 
 <h1>Description:</h>
 
-Crafted a functional website mirroring the essence of Apple TV+, where users seamlessly log in using their phone numbers. Implemented comprehensive features including searching, reviewing products, and enjoying content, all accessible with or without an mlsPass. Experience the epitome of entertainment with our intuitive interface and robust functionalities.
+
+<p>Experience the culinary marvel of KFC's online platform, where gastronomic delight meets digital convenience. Our website offers a seamless journey for users, effortlessly logging in with their phone numbers, ensuring swift access to a world of flavor.</P>
 
 <h1>Tech Stack</h1>
 <ul><Li>Html</li>
