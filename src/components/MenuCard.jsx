@@ -11,11 +11,14 @@ import {
   ButtonGroup,
   Button
 } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
 const MenuCard = ({item}) => {
+  const dispatch = useDispatch();
+ const data = useSelector((state) => state.cart.cartItems);
+ console.log(data)
   return (
-    <>
-     
-        
+<>
+       
         <Card maxW="sm">
           <CardBody>
             <Image
@@ -39,7 +42,7 @@ const MenuCard = ({item}) => {
               <Text>{item  ["medium-menu-product-description"]}</Text>
             </Stack>
             <ButtonGroup>
-              <Button background={"red"} color={"White"} borderRadius={"20px"} marginTop={"20px"}>Add to Cart</Button>
+              <Button background={"red"} color={"White"} borderRadius={"20px"} marginTop={"20px"} onClick={() => dispatch({type: "ADD_TO_CART", payload: item})}>Add to Cart</Button>
             </ButtonGroup>
           </CardBody>
           <Divider />

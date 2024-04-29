@@ -52,7 +52,7 @@ const Signin = () => {
 
       <form onSubmit={handleSubmit}>
         <Flex direction="column" alignItems="center" justifyContent="center">
-          <Box marginBottom="20px">
+          <Box marginBottom="20px"  width={"50%"}>
             <Input
               variant="flushed"
               type="email"
@@ -62,9 +62,10 @@ const Signin = () => {
               placeholder="Enter Email"
               textAlign="center"
               required
+             
             />
           </Box>
-          <Box marginBottom="20px">
+          <Box marginBottom="20px" width={"50%"}>
             <Input
               variant="flushed"
               type="password"
